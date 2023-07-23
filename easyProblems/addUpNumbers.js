@@ -15,4 +15,4 @@ function addAllNumbers(number) {
     }
     return sum;
 }
-console.log(addAllNumbers(600));
+console.log(addAllNumbers(13));

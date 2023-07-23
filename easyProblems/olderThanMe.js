@@ -16,12 +16,16 @@ class Person {
     age;
 }
 
-let p1 = Person("Samuel", 24);
-let p2 = Person("Joel", 36);
-let p3 = Person ("Lily", 28);
+let p1 = new Person("Samuel", 24);
+let p2 = new Person("Joel", 36);
+let p3 = new Person ("Lily", 28);
 
 function olderThanMe(Person) {
     if (Person.age < 28) {
-        return ${Person.name} + "is younger than me.";
+        return `${Person.name} + "is younger than me."`;
     }
 }
+
+console.log((p1));
+
+//not solved yet, double back to reading on classes
