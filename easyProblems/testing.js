@@ -1,1 +1,1 @@
-console.log(Number("3"));
+//adding notes here from reading chapters
